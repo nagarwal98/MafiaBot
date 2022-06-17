@@ -8,6 +8,7 @@ import Game
 import time
 from discord.ext import commands
 
+## may need to generate a new BOTTOKEN
 BOTTOKEN = 'NzQzNTc3MjU5MzczMzYzMjMw.XzWsSQ.P4Tyf8CQUaIn_wGmKnHeyWS4OJI'
 newGame = Game.Game(0, 0)
 bot = commands.Bot(command_prefix='!')
